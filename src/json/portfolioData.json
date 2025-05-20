@@ -1,0 +1,1370 @@
+[
+  {
+    "name": "WhiToo",
+    "image": "WhiToo_Cover.webp",
+    "category": "University",
+    "id": "1",
+    "userClass": "UI/UX Class",
+    "years": "",
+    "descriptionTitle": "",
+    "description": "",
+    "multiImages": [
+      "tempImageDTpVw9.jpg",
+      "tempImagevoyccp.jpg",
+      "tempImage1vtdhj.jpg",
+      "tempImage2ateyr.jpg"
+    ]
+  },
+  {
+    "name": "Text Portrait",
+    "image": "TextPortrait_Cover.webp",
+    "category": "University",
+    "id": "2",
+    "userClass": "Typography II Class",
+    "years": "2017",
+    "descriptionTitle": "Text Portrait: Arabic Typography in Self-Expression",
+    "multiImages": [
+      "TextPortrait_01.webp",
+      "TextPortrait_02.webp",
+      "TextPortrait_03.webp",
+      "TextPortrait_04.webp"
+    ],
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "This project explores self-identity through the lens of Arabic typography, using text to create a visual representation of my face. Developed as part of my Typography class at the University of New Haven, the piece integrates words that define my personality and values, arranged to form a unique self-portrait."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The goal was to use Arabic script to express elements that shape who I am, with each word reflecting a piece of my character. The portrait merges language with self-identity, underscoring how art and text contribute to self-representation."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Sketching",
+            "content": "Started with an outline sketch of my face to define the portrait structure."
+          },
+          {
+            "title": "Typography Selection",
+            "content": "Chose meaningful Arabic words representing personal values and interests, with additional words to complete the layout."
+          },
+          {
+            "title": "Digital Arrangement",
+            "content": "Balanced spacing, text density, and contours to ensure both artistic harmony and recognizable features."
+          }
+        ]
+      },
+      "Impact&Reflection": {
+        "title": "Impact & Reflection",
+        "content": "This project deepened my appreciation for Arabic typography as a medium for self-expression. The result is a visual narrative that captures the layered nature of identity through language and design."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "content": "Arabic text arranged to form a self-portrait"
+          },
+          {
+            "content": "Integration of typography and personal identity"
+          },
+          {
+            "content": "Exploration of language as a medium for self-expression"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Arabic Graffiti",
+    "image": "ArabicGraffiti_Cover.webp",
+    "category": "University",
+    "id": "3",
+    "userClass": "Class: Digital Imaging",
+    "years": "2019",
+    "multiImages": [
+      "ArabicGraffiti_01.webp",
+      "ArabicGraffiti_02.webp",
+      "ArabicGraffiti_03.webp",
+      "ArabicGraffiti_04.webp",
+      "ArabicGraffiti_05.webp",
+      "ArabicGraffiti_06.webp",
+      "ArabicGraffiti_07.webp",
+      "ArabicGraffiti_08.webp",
+      "ArabicGraffiti_09.webp",
+      "ArabicGraffiti_10.webp"
+    ],
+
+    "descriptionTitle": "Arabic Graffiti: Blending Tradition with Urban Art",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "This project merges Arabic script with graffiti, reimagining traditional Arabic letters through the lens of street art. Combining the beauty of Arabic culture with the vibrant graffiti style, these designs showcase Arabic script in a bold, modern way."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The goal was to fuse Arabic typography with graffiti, celebrating Arabic culture in a contemporary style. Each design aims to retain the integrity of Arabic script while experimenting with the colors, patterns and forms unique to street art."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "description": "The project features five designs, each exploring different color schemes, textures, and styles:",
+        "content": [
+          {
+            "title": "Color",
+            "content": "Each palette creates a distinct atmosphere from bold contrasts to muted tones."
+          },
+          {
+            "title": "Style",
+            "content": "Ranging from abstract to calligraphic, each piece blends traditional Arabic forms with graffiti’s free-flowing energy."
+          },
+          {
+            "title": "Approach",
+            "content": "Some designs keep the Arabic letters prominent, while others blend them more seamlessly into graffiti textures."
+          }
+        ]
+      },
+      "Impact&Reflection": {
+        "title": "Impact & Reflection",
+        "content": "This project helped deepen my understanding of cultural expression in art, bridging heritage with contemporary styles. The designs invite a fresh appreciation of Arabic culture through an accessible, urban art form."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "content": "Five unique designs with varied colors and forms"
+          },
+          {
+            "content": "A fusion of traditional Arabic script and modern graffiti"
+          },
+          {
+            "content": "Celebrating cultural identity through artistic exploration"
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "\"Arabic Graffiti\" brings Arabic letters into the urban art scene, embodying my passion for cultural representation and innovative design."
+      }
+    }
+  },
+  {
+    "name": "UNH Tie",
+    "image": "UNHTie_Cover.webp",
+    "category": "University",
+    "id": "4",
+    "userClass": "Design Contest Winner, University of New Haven Art School",
+    "years": "2018",
+    "multiImages": [
+      "UNHTie_01.webp",
+      "UNHTie_02.webp",
+      "UNHTie_03.webp",
+      "UNHTie_04.webp",
+      "UNHTie_05.webp",
+      "UNHTie_06.webp"
+    ],
+    "descriptionTitle": "University of New Haven Necktie Design",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "For a student design contest, I created a modern necktie design for the University of New Haven, which was chosen as the official necktie. This design merges academic formality with elements inspired by Islamic art, aligning with the university’s brand identity."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The goal was to design a necktie that felt professional and visually appealing, reflecting the university’s brand values. Using Islamic geometric patterns, I added cultural depth while keeping the design fresh and modern."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Color Adherence",
+            "content": "Followed the university’s color palette for brand consistency."
+          },
+          {
+            "title": "Pattern Creation",
+            "content": " Used geometric shapes from Islamic art to create a sophisticated, timeless look."
+          },
+          {
+            "title": "Logo Placement",
+            "content": "Integrated the university logo subtly, enhancing the design’s cohesion without overpowering it."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "I studied university ties across the U.S. to create a design that felt both traditional and innovative, with cultural influences bringing a distinctive touch."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Award-winning",
+            "content": "Selected as the university’s official necktie."
+          },
+          {
+            "title": "Brand Alignment",
+            "content": "Adhered to school colors and branding."
+          },
+          {
+            "title": "Cultural Touch",
+            "content": "Integrated Islamic art elements subtly."
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "Conclusion",
+        "content": "This project showcases my skills in brand-focused design, cultural integration, and creative problem-solving, resulting in a necktie that reflects the university’s values with a modern twist."
+      }
+    }
+  },
+  {
+    "name": "Electrify Social",
+    "image": "electrifySocial_Cover.webp",
+    "category": "Mascola",
+    "id": "5",
+    "userClass": "Mascola Group",
+    "years": "2018",
+    "multiImages": [
+      "electrifySocial_01.webp",
+      "electrifySocial_02.webp",
+      "electrifySocial_03.webp",
+      "electrifySocial_04.webp"
+    ],
+    "descriptionTitle": " 2018",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "\"Electrify\" is a dynamic social media campaign aimed at generating excitement around sustainable energy solutions. This project focused on visually engaging content that promoted eco-friendly initiatives and electric energy awareness in an accessible, appealing way. The campaign emphasized the potential of sustainable energy with bold visuals and clear messaging, inspiring audiences to consider renewable options."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The objective was to develop a campaign that visually resonated with audiences while educating them on sustainable energy. By blending striking graphics with informative content, the campaign aimed to create a compelling message that highlighted the benefits of electric and renewable energy solutions."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Visual Style",
+            "content": "Created a bold, futuristic aesthetic using vibrant colors and high-contrast imagery to capture attention and convey energy and innovation."
+          },
+          {
+            "title": "Messaging",
+            "content": "Developed clear, engaging text that communicated the benefits of sustainable energy in a concise and impactful manner."
+          },
+          {
+            "title": "Platform Adaptability",
+            "content": "Designed versatile content that could be adapted for various social media platforms, maximizing reach and engagement."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "Inspired by innovative energy campaigns and current trends in digital engagement, I researched ways to make renewable energy appealing and relevant to a digital audience. The project involved analyzing color psychology and visual trends to effectively convey sustainability and innovation."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Sustainable Message",
+            "content": "Focused on promoting eco-friendly energy solutions."
+          },
+          {
+            "title": "Engaging Visuals",
+            "content": "Used bold colors and design to capture attention on social platforms."
+          },
+          {
+            "title": "Audience Education:",
+            "content": "Integrated informative content to raise awareness on sustainable energy."
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "The \"Electrify\" campaign is a vibrant example of combining impactful visuals with meaningful messaging to inspire and educate. This project reflects my commitment to sustainability and my ability to create content that both informs and captivates."
+      }
+    }
+  },
+  {
+    "name": "Pearl Signing Ceremony Branding",
+    "image": "EIGAramcoCover.png",
+    "category": "Aramco",
+    "id": "6",
+    "userClass": "Saudi Aramco",
+    "years": "2021",
+    "multiImages": ["EIGAramco01.png", "EIGAramco02.jpg", "EIGAramco03.jpg"],
+
+    "descriptionTitle": "Pearl Signing Ceremony Branding",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "The \"Pearl Signing Ceremony\" branding project involved creating a cohesive visual identity for a high-profile corporate event. The branding was crafted to reflect elegance, professionalism, and exclusivity, setting the tone for a memorable signing ceremony. Through a refined color palette, custom-designed elements, and consistent application across materials, the project emphasized the importance and prestige of the occasion."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The primary goal was to develop a branding experience that would convey the significance of the signing ceremony while aligning with the brand’s values and reputation. By focusing on sophisticated design elements, the branding aimed to create an environment of formality and celebration, giving attendees a lasting impression of the event’s importance."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Visual Identity",
+            "content": "Choose an elegant color scheme and sleek typography to reflect professionalism and exclusivity. "
+          },
+          {
+            "title": "Custom Elements",
+            "content": "Designed unique icons, patterns, and motifs that were inspired by pearls, symbolizing purity and sophistication."
+          },
+          {
+            "title": "Event Collateral",
+            "content": "Developed a full range of materials, including banners, invitations, signage, and digital assets, to ensure brand consistency throughout the event."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "In developing this brand, I researched high-end corporate events and ceremonies to understand how visual elements can enhance the atmosphere of prestige. Drawing from luxury branding and traditional elegance, the design was crafted to appeal to the corporate audience while maintaining a timeless, refined aesthetic."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Elegant Color Palette",
+            "content": "Employed soft, sophisticated colors that created an exclusive and welcoming atmosphere."
+          },
+          {
+            "title": "Cohesive Branding Elements",
+            "content": "Maintained consistency across all event materials to reinforce the brand’s identity."
+          },
+          {
+            "title": "Symbolic Design",
+            "content": "Incorporated motifs inspired by pearls to add meaning and depth to the branding."
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "The \"Pearl Signing Ceremony Branding\" project successfully captured the essence of a high-profile event with its refined, cohesive design. This project exemplifies my skills in creating meaningful, brand-aligned event branding that resonates with a corporate audience, leaving a memorable impact."
+      }
+    }
+  },
+  {
+    "name": "President Excellence Awards",
+    "image": "Cover10.webp",
+    "category": "Aramco",
+    "id": "7",
+    "userClass": "Saudi Aramco",
+    "years": "2020",
+    "multiImages": [
+      "01.webp",
+      "PresidentAwards02.jpg",
+      "PresidentAwards03.jpg",
+      "PresidentAwards04.jpg",
+      "PresidentAwards05.jpg",
+      "PresidentAwards06.jpg",
+      "PresidentAwards07.jpg",
+      "PresidentAwards08.jpg",
+      "PresidentAwards09.jpg"
+    ],
+    "descriptionTitle": "President’s Excellence Awards Branding",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "This branding project for the \"President’s Excellence Awards\" focused on creating an elegant, prestigious visual identity to celebrate outstanding achievements within the organization. The design aimed to elevate the event's stature, establishing it as an annual highlight that honors excellence. With a refined color scheme and sophisticated graphics, the branding embodied the values of honor, dedication, and excellence."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The main objective was to craft a brand identity that resonated with the high standards of the awards and reflected the importance of the ceremony. The design was developed to convey a sense of achievement and pride, aligning with the event’s goal of recognizing top talent and inspiring continued excellence."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Visual Identity",
+            "content": "Developed a luxurious color palette, incorporating metallics and deep tones to evoke sophistication and exclusivity."
+          },
+          {
+            "title": "Award Symbolism",
+            "content": "Created icons and motifs inspired by achievement symbols, such as laurel wreaths and stars, to represent accomplishment and recognition."
+          },
+          {
+            "title": "Branded Materials",
+            "content": "Designed a range of materials, including invitations, certificates, banners, and digital assets, ensuring that each touchpoint was visually cohesive and aligned with the event’s prestige."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "Drawing inspiration from prestigious award ceremonies and luxury branding, I explored how design could communicate exclusivity and excellence. By incorporating timeless design elements and formal aesthetics, I was able to create a brand experience that underscored the importance of the awards."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Sophisticated Color Palette",
+            "content": "Utilized deep, classic colors paired with metallic accents to emphasize the award’s prestige."
+          },
+          {
+            "title": "Consistent Branding",
+            "content": "Maintained a cohesive design language across all materials to create a unified and memorable event experience."
+          },
+          {
+            "title": "Achievement Motifs",
+            "content": "Incorporated symbolic elements, such as laurels and stars, to visually represent accomplishment."
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "The \"President’s Excellence Awards Branding\" project successfully captured the spirit of achievement and honor, creating a distinguished visual identity that enhanced the significance of the event. This project showcases my ability to design event branding that is not only cohesive but also meaningful, making a lasting impression on attendees."
+      }
+    }
+  },
+  {
+    "name": "Aramco Gifts",
+    "image": "AramcoGiftsCover.jpg",
+    "category": "Aramco",
+    "id": "8",
+    "userClass": "Saudi Aramco",
+    "years": "2020",
+    "multiImages": [
+      "AramcoGifts01-1.jpg",
+      "AramcoGifts02-2.jpg",
+      "AramcoGifts03-2.jpg",
+      "AramcoGifts04-2.jpg",
+      "AramcoGifts05-2.jpg",
+      "AramcoGifts06-2.jpg",
+      "AramcoGifts07-2.jpg",
+      "AramcoGifts08-2.jpg",
+      "AramcoGifts09-2.jpg",
+      "AramcoGifts10-2.jpg",
+      "AramcoGifts11-1.jpg",
+      "AramcoGifts12-1.jpg"
+    ],
+    "descriptionTitle": "Aramco Premium Gift Design",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "This project involved designing exclusive, custom gifts for Saudi Aramco to commemorate notable occasions, including a book presentation to King Salman bin Abdulaziz. The designs aimed to reflect Aramco’s values of innovation, cultural heritage, and high quality. Each piece needed to be meaningful and memorable, representing the organization with elegance and thoughtfulness."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The primary goal was to create premium, visually striking gifts that aligned with Aramco's brand and values. The designs incorporated elements of Saudi culture and Aramco’s identity, emphasizing sophistication and cultural significance. The project also focused on attention to detail to ensure that each item was both functional and symbolic."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Cultural Inspiration",
+            "content": "Integrated traditional Saudi motifs and patterns to connect the gifts with local heritage."
+          },
+          {
+            "title": "Material Selection",
+            "content": "Chose high-quality materials to reflect the premium nature of the gifts, emphasizing durability and elegance."
+          },
+          {
+            "title": "Packaging & Presentation",
+            "content": "Designed packaging that added a sense of formality and importance to each gift, enhancing the recipient's experience."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "Research focused on luxury gift items and cultural symbolism, ensuring that each design would resonate on both a personal and cultural level. Additionally, I explored Aramco’s brand elements to maintain alignment with their corporate image, delivering designs that reflected their commitment to excellence."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Exclusive Design",
+            "content": "Crafted unique, premium items that celebrated Aramco's identity and Saudi culture."
+          },
+          {
+            "title": "Quality Materials",
+            "content": "Used luxurious materials to emphasize quality and the exclusive nature of the gifts."
+          },
+          {
+            "title": "Cultural Integration",
+            "content": "Infused designs with traditional patterns and elements to give the gifts cultural depth."
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "\"Aramco Premium Gift Design\" project allowed me to merge cultural inspiration with modern design, creating gifts that were both elegant and meaningful. This project showcases my ability to develop designs that honor both the client's brand and cultural identity, delivering memorable, high-quality pieces."
+      }
+    }
+  },
+  {
+    "name": "Oum Kalthom",
+    "image": "OumKalthomCover-1.png",
+    "category": "University",
+    "id": "9",
+    "userClass": "Typography Class, University of New Haven",
+    "years": "2017",
+    "multiImages": [
+      "OumKalthom01-1.png",
+      "OumKalthom02.png",
+      "OumKalthom03-1.png"
+    ],
+    "descriptionTitle": "Oum Kalthoum Tribute Album Covers",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "This series of album covers is a tribute to Oum Kalthoum, capturing different eras of her illustrious career. Each cover reflects a unique phase of her life, featuring varied color schemes, typography, and imagery. The goal was to honor her timeless legacy through a collection that embraces the evolution of her image while celebrating her profound influence on Arabic music and culture."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The objective was to design a set of album covers that showcase Oum Kalthoum’s enduring legacy by presenting her image in a range of styles that convey different moods, ages, and cultural aesthetics. By integrating diverse Arabic typography styles and distinct color palettes, the designs aim to evoke the essence of her different musical eras."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Arabic Typography Styles",
+            "content": "Each cover uses a unique Arabic typeface that matches the mood and era being portrayed, blending classical elegance with modern design influences."
+          },
+          {
+            "title": "Color Variation",
+            "content": "From warm, vintage tones to bold, contemporary colors, each cover’s palette highlights a different period of her life, creating a cohesive yet diverse collection."
+          },
+          {
+            "title": "Imagery & Angles",
+            "content": "The series incorporates varied facial angles and details, such as different necklaces and accessories, to reflect her evolving style and presence."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "Inspired by Oum Kalthoum’s impact and the cultural history surrounding her, I researched vintage Arabic album art, classic photography styles, and typography techniques. Each cover draws from visual cues that represent a different stage in her career, merging these historical elements with a modern design approach."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Era-Specific Designs",
+            "content": "Each cover captures a distinct period in Oum Kalthoum's career through color, style, and typography."
+          },
+          {
+            "title": "Cultural Authenticity",
+            "content": "The album covers reflect Arabic design aesthetics, respecting her heritage while appealing to modern audiences."
+          },
+          {
+            "title": "Diverse Perspectives",
+            "content": "Different angles and accessories capture the depth of her iconic presence and personality across the series."
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "This album cover series is a tribute to Oum Kalthoum’s lasting influence, bringing together visual storytelling and cultural appreciation. Each piece is a standalone homage to a legend, reflecting her essence and the deep connection she shares with her audience across generations."
+      }
+    }
+  },
+
+  {
+    "name": "Saudi Birds",
+    "image": "BirdsSaudiCover.jpg",
+    "category": "Aramco",
+    "id": "10",
+    "userClass": "Saudi Aramco",
+    "years": "2021",
+    "multiImages": [
+      "BirdsSaudi01.jpg",
+      "BirdsSaudi02.jpg",
+      "BirdsSaudi04.jpg",
+      "BirdsSaudi05.jpg",
+      "BirdsSaudi06.jpg",
+      "BirdsSaudi07.jpg",
+      "BirdsSaudi10.jpg",
+      "BirdsSaudi11.jpg",
+      "BirdsSaudi12.jpg",
+      "BirdsSaudi13.jpg",
+      "BirdsSaudi14.jpg",
+      "BirdsSaudi15.jpg",
+      "BirdsSaudi16.jpg",
+      "BirdsSaudi17.jpg",
+      "BirdsSaudi18-1.jpg",
+      "BirdsSaudi19.jpg",
+      "BirdsSaudiCover.jpg"
+    ],
+    "descriptionTitle": "Saudi Birds Book Packaging & Gift Design",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "This project involved designing the packaging and gift presentation for a book celebrating Saudi Arabia's native bird species. Created as a special gift for King Salman, the project combined elegant packaging design with a deep cultural and environmental theme. The goal was to present the book as a thoughtful, visually striking gift that reflects Saudi Arabia's rich natural heritage."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The concept was to design a unique packaging solution for a book that highlights the diverse and beautiful bird species native to Saudi Arabia. As a gift for King Salman, the design needed to combine sophistication, cultural relevance, and a sense of environmental pride. The challenge was to create a design that not only protected the book but also elevated its presentation, making it a fitting tribute to both nature and royalty."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Packaging Design",
+            "content": "I created a luxurious, eco-friendly packaging design that reflects the natural beauty of Saudi Arabia’s bird species. The packaging incorporated textured materials, gold accents, and imagery of the birds, ensuring that the presentation felt regal and fitting for such an important gift."
+          },
+          {
+            "title": "Gift Presentation",
+            "content": "The book was designed with premium finishes, incorporating rich colors and elegant typography that conveyed the importance of the subject matter. The packaging itself was crafted to mirror the book’s themes, offering a sense of reverence and appreciation for both nature and King Salman."
+          },
+          {
+            "title": "Cultural & Environmental Focus",
+            "content": "The design elements integrated patterns and motifs inspired by traditional Saudi art, blending the country’s cultural heritage with modern design aesthetics."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "To ensure the project was aligned with both cultural and royal expectations, I researched Saudi Arabian art, royal gifting traditions, and the country’s native wildlife. The project was designed to represent a deep respect for Saudi Arabia’s biodiversity and to honor King Salman’s commitment to preserving the nation’s natural heritage."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Book Packaging Design",
+            "content": "A luxurious, eco-friendly design with gold accents and bird-inspired imagery that reflects the essence of Saudi Arabia’s natural heritage."
+          },
+          {
+            "title": "Gift for King Salman",
+            "content": "The packaging and book design were specifically created to serve as a prestigious gift for the king, combining elegance and environmental pride."
+          },
+          {
+            "title": "Cultural Relevance",
+            "content": "The design incorporated Saudi art motifs and traditional elements, ensuring cultural alignment and regal sophistication."
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "The Saudi Birds Book packaging and gift design project was a meaningful and creative endeavor, successfully blending environmental appreciation with royal gifting traditions. The design highlights the importance of Saudi Arabia’s native bird species while offering a thoughtful and impactful presentation to King Salman, making the gift both memorable and culturally significant."
+      }
+    }
+  },
+  {
+    "name": "Sweet Dream",
+    "image": "SweetDreamsCover.jpg",
+    "category": "University",
+    "id": "11",
+    "userClass": "UI/UX Class, University of New Haven",
+    "years": "2017",
+    "multiImages": [
+      "SweetDreams01.jpg",
+      "SweetDreams02.jpg",
+      "SweetDreams03.jpg",
+      "SweetDreams04.jpg",
+      "SweetDreams05.jpg",
+      "SweetDreams06.jpg"
+    ],
+    "descriptionTitle": "Sweet Dream App UI/UX Design",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "Sweet Dream is a mobile app concept designed to help users select and visualize their ideal dreams before sleep. Focused on promoting relaxation and positive visualization, the app’s interface is designed to create a calming, stress-free environment, encouraging users to end their day in a peaceful and restful state."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The primary goal was to create an intuitive and soothing app that facilitates dream selection through a simple, calming interface. The app’s purpose is to assist users in personalizing their dream experience, enhancing their ability to visualize a restful and pleasant sleep. By incorporating soothing colors, gentle animations, and an easy user flow, the design aims to foster a positive pre-sleep ritual."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Color Palette",
+            "content": "Soft pastel colors like blues, pinks, and purples were chosen to evoke a calm and peaceful atmosphere, supporting relaxation."
+          },
+          {
+            "title": "Icons & UI",
+            "content": "The app features custom-designed icons and minimalist UI elements, each representing different dream themes and ensuring an intuitive experience."
+          },
+          {
+            "title": "User Flow",
+            "content": "I prioritized an easy-to-navigate interface, allowing users to seamlessly select dream experiences and customize them in a few simple steps. The user journey is designed to be quick and straightforward, ensuring a smooth transition from choosing to visualizing dreams."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "The design process was informed by research on sleep and relaxation techniques, drawing from apps in the meditation and wellness space. Insights into color psychology and the role of visualization in sleep helped shape the calming aesthetic and functional design choices."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Relaxing Interface",
+            "content": "Soft colors and minimalist design promote relaxation, creating an ideal pre-sleep experience."
+          },
+          {
+            "title": "Custom Icons",
+            "content": "Unique, dream-themed icons are used to guide users through the selection process."
+          },
+          {
+            "title": "Intuitive Navigation",
+            "content": "A clear, simple layout ensures a smooth user experience, with easy access to dream selection and personalization features."
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "Sweet Dream is a thoughtfully designed app that blends function and aesthetics to help users enhance their sleep experience. The project showcases my ability to create a calming and user-friendly interface, with a focus on relaxation and visualization."
+      }
+    }
+  },
+  {
+    "name": "Ezio",
+    "image": "EzioCover.jpg",
+    "category": "University",
+    "id": "12",
+    "userClass": "Typography Class, University of New Haven",
+    "years": "2018",
+    "multiImages": [
+      "Ezio01.jpg",
+      "Ezio02.jpg",
+      "Ezio03.jpg",
+      "Ezio04.jpg",
+      "Ezio05.jpg",
+      "Ezio06.jpg",
+      "Ezio07.jpg",
+      "Ezio08.jpg",
+      "Ezio09.jpg",
+      "Ezio10.jpg",
+      "Ezio11.jpg"
+    ],
+    "descriptionTitle": "Ezio Typography Project",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "The Ezio project is a reinterpretation of a historic poster through a series of designs that maintain the original concept while introducing modern typography and design approaches. Created for a typography class, the project combines poster design, 3D elements, and animation to breathe new life into a vintage visual, exploring how traditional design can evolve while staying true to its roots."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The aim was to select a classic historical poster and reimagine it through a variety of design approaches, all while preserving the essence of the original concept and color scheme. The project allowed for experimentation with different typographic styles, composition techniques, and digital tools to create a cohesive yet dynamic visual narrative that would resonate with contemporary audiences."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Typography",
+            "content": "I focused on updating the typography while maintaining the historical integrity of the original poster. Each iteration explored new fonts, letterforms, and positioning to reflect the project’s evolving style."
+          },
+          {
+            "title": "Color Consistency",
+            "content": "The original poster’s color scheme was kept intact, ensuring visual continuity across the series while still allowing for creative reinterpretation within the design."
+          },
+          {
+            "title": "3D & Animation",
+            "content": "I introduced 3D elements and motion graphics to enhance the poster series, experimenting with depth and visual storytelling to create a more immersive and engaging experience."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "This project was inspired by the study of historic posters and the role of typography in visual storytelling. The design process involved examining classic typographic techniques and adapting them to modern software, pushing the boundaries of traditional print design while respecting the original aesthetic."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Series of Posters",
+            "content": "The project consists of several posters, each exploring a unique typographic approach while maintaining the original poster’s identity."
+          },
+          {
+            "title": "Integration of 3D Design",
+            "content": "3D elements were incorporated into the project to add depth and texture, enhancing the overall visual impact."
+          },
+          {
+            "title": "Animation",
+            "content": "The inclusion of animation allowed for a dynamic presentation of the design series, bringing the posters to life through motion."
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "Ezio is a creative exploration of how historical design can be reinterpreted with modern tools and techniques. The project demonstrates my ability to balance tradition with innovation, merging typography, 3D design, and animation to create a visually compelling and cohesive series."
+      }
+    }
+  },
+
+  {
+    "name": "Day To Day",
+    "image": "1to1PostersCover.jpg",
+    "category": "University",
+    "id": "13",
+    "userClass": "Portfolio Design Class, University of New Haven",
+    "years": "2018",
+    "multiImages": [
+      "1to1Posters01.jpg",
+      "1to1Posters02.jpg",
+      "1to1Posters03.jpg",
+      "1to1Posters04.jpg",
+      "1to1Posters05.jpg",
+      "1to1Posters06.jpg",
+      "1to1Posters07.jpg",
+      "1to1Posters08.jpg",
+      "1to1Posters09.jpg",
+      "1to1Posters10.jpg"
+    ],
+    "descriptionTitle": "1to1 (Day to Day) Poster Series",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "1to1 is a poster series designed for an internal exhibition aimed at students showcasing their portfolio practices. The project focused on creating visually striking designs that communicated the concept of portfolio development and creative expression while aligning with the exhibition's goal of inspiring students to present their work in new and dynamic ways."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The objective was to design a series of posters that would not only attract attention but also serve as a visual representation of the students' creative processes and the evolution of their portfolios. Each poster captures the essence of portfolio practice—reflecting the journey of artistic and design development while encouraging students to engage with their creative potential."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Visual Storytelling",
+            "content": "I aimed to tell a story through each poster, incorporating elements that symbolize personal growth, artistic exploration, and professional development."
+          },
+          {
+            "title": "Composition & Color",
+            "content": "The design elements were carefully arranged to create balance and harmony, using colors that evoke energy and creativity, while remaining professional and aligned with the exhibition’s objectives."
+          },
+          {
+            "title": "Typography & Layout",
+            "content": "Typography was a crucial element in conveying the theme of the project. I used dynamic, modern fonts to bring attention to key concepts while maintaining clarity and legibility."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "In developing this series, I researched past student exhibitions and portfolio presentations to understand how others have approached similar themes. Drawing inspiration from minimalist design, contemporary art, and graphic design trends, I focused on how to visually represent the intersection of personal expression and professional development."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Poster Series",
+            "content": "A collection of posters that visually communicate the concept of portfolio development and creative growth."
+          },
+          {
+            "title": "Student-Centric Design",
+            "content": "The posters were designed to resonate with the student audience, reflecting their journey and the importance of showcasing their work effectively."
+          },
+          {
+            "title": "Balanced Visuals",
+            "content": "Each poster achieves a balance of composition, typography, and color to ensure clarity while keeping the designs visually engaging."
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "1to1 was a rewarding project that allowed me to experiment with a variety of design principles while focusing on creating a cohesive visual experience for an internal student exhibition. The series demonstrates my ability to translate conceptual ideas into impactful, creative designs that resonate with a specific audience."
+      }
+    }
+  },
+  {
+    "name": "Ahed",
+    "image": "AhedCover.jpg",
+    "category": "University",
+    "id": "14",
+    "userClass": "Digital illustration class, University of New Haven",
+    "years": "2017",
+    "multiImages": ["Ahed01.jpg"],
+    "descriptionTitle": "Ahed – Game Character Card Design for Awareness",
+    "description": {
+      "ProjectOverview": {
+        "title": "Project Overview",
+        "content": "Ahed is a digital game character card designed as part of a class project to raise awareness about child abuse. Inspired by a real-life news story, the project portrays a young girl named Ahed who courageously defended herself and her family. The character card visually captures her strength and resilience while incorporating elements of her cultural heritage, reflecting her land’s historical design and symbolism. This project was created to raise awareness about child abuse while promoting empowerment through visual storytelling."
+      },
+      "Concept&Objective": {
+        "title": "Concept & Objective",
+        "content": "The goal of this project was to design a game character card that embodies the spirit of Ahed, drawing on both her personal story and cultural identity. The card design emphasizes empowerment and resilience, using shapes and patterns that represent her land’s culture and history. Through this design, I aimed to create an engaging and meaningful representation of Ahed, blending her story with visual elements that reflect the broader cultural context of her life."
+      },
+      "DesignProcess": {
+        "title": "Design Process",
+        "content": [
+          {
+            "title": "Character Representation",
+            "content": "The central focus of the card is Ahed herself, depicted with strong visual elements that reflect her inner strength and courage."
+          },
+          {
+            "title": "Cultural Influence",
+            "content": "The design incorporates geometric patterns and shapes inspired by her land’s traditional culture, with the shapes symbolizing resilience, protection, and heritage."
+          },
+          {
+            "title": "Color Palette & Mood",
+            "content": "A bold and contrasting color palette was used to create a striking visual effect, symbolizing the strength of Ahed while highlighting the emotional intensity of the subject matter."
+          },
+          {
+            "title": "Card Layout & Design",
+            "content": "The layout follows a traditional game character card format, with visual elements that enhance the thematic and cultural aspects of Ahed’s story, emphasizing her role as both a defender and a symbol of empowerment."
+          }
+        ]
+      },
+      "Research&Inspiration": {
+        "title": "Research & Inspiration",
+        "content": "To create a culturally resonant design, I conducted research on the history and symbolism of the region’s art and design. I studied traditional patterns and motifs to ensure the design reflected Ahed’s cultural roots while maintaining a modern aesthetic suitable for a game character card. The research also helped to align the design with the thematic goal of promoting empowerment and raising awareness for child abuse."
+      },
+      "ProjectHighlights": {
+        "title": "Project Highlights",
+        "content": [
+          {
+            "title": "Cultural Representation",
+            "content": "The design incorporates historical design elements and patterns that reflect Ahed’s cultural heritage."
+          },
+          {
+            "title": "Empowerment Theme",
+            "content": "The card visually represents Ahed’s strength and courage in a way that speaks to empowerment and resilience."
+          },
+          {
+            "title": "Social Awareness",
+            "content": "The project aims to raise awareness about child abuse while encouraging empathy and understanding through a dynamic visual representation."
+          }
+        ]
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "Ahed is a game character card designed to honor the courage of a young girl while raising awareness about child abuse. By integrating cultural design elements, the project not only tells Ahed’s story but also invites viewers to connect with her cultural identity. This project showcases the power of design to communicate important social issues and create empathy through visual storytelling."
+      }
+    }
+  },
+  {
+    "name": "Al-Qatt",
+    "image": "AlqattCover.jpg",
+    "category": "University",
+    "id": "15",
+    "userClass": "",
+    "years": "",
+    "multiImages": ["Alqatt01.jpg"],
+    "descriptionTitle": "",
+    "description": ""
+  },
+
+  {
+    "name": "Ecotourism",
+    "image": "EcoactivitesCover-1.jpg",
+    "category": "IARDA",
+    "id": "16",
+    "userClass": "",
+    "years": "",
+    "multiImages": ["Ecoactivites01.jpg", "Ecoactivites02.jpg"],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Cyber Awareness",
+    "image": "CyberCover.jpg",
+    "category": "IARDA",
+    "id": "17",
+    "userClass": "IARDA",
+
+    "years": "",
+    "multiImages": ["Cyber01.jpg", "Cyber02.jpg", "Cyber03.jpg", "Cyber04.jpg"],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Saudi National Day",
+    "image": "SaudiNationalDay91.jpg",
+    "category": "IARDA",
+    "id": "18",
+    "userClass": "",
+    "years": "",
+    "iframes": [
+      {
+        "src": "https://player.vimeo.com/video/943686457?dnt=1&app_id=122963"
+      }
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+
+  {
+    "name": "Cyberbullying",
+    "image": "a0.jpg",
+    "category": "University",
+    "id": "19",
+    "userClass": "",
+    "years": "",
+    "iframes": [
+      {
+        "src": "//player.vimeo.com/video/942363681?autoplay=1&loop=1&autopause=0"
+      }
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "LegalZoom",
+    "image": "Legalzoom-cover.jpg",
+    "category": "Mascola",
+    "id": "20",
+    "userClass": "Legalzoom",
+    "multiImages": [
+      "Legalzoom00.jpg",
+      "Legalzoom01.jpg",
+      "Legalzoom03.jpg",
+      "Legalzoom04.jpg",
+      "Legalzoom05.jpg",
+      "Legalzoom06.jpg",
+      "Legalzoom07.jpg",
+      "Legalzoom08.jpg",
+      "Legalzoom09.jpg"
+    ],
+
+    "link": {
+      "title": "Legalzoom.com",
+      "url": "https://www.legalzoom.com/country/in"
+    },
+    "years": "2021",
+    "shortDescription": "I worked on redesigning the Outlet Gallery brand using Intermediate Graphic Design skills. The main aim was to make something that shows who they are. After looking at the presentation, I focused on important things like their international presence and connections.",
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Wellbeing",
+    "image": "Wellbeing00.jpg",
+    "category": "IARDA",
+    "id": "21",
+    "userClass": "IARDA",
+    "years": "2022",
+    "multiImages": [
+      "Wellbeing01.jpg",
+      "Wellbeing02.jpg",
+      "Wellbeing03.jpg",
+      "Wellbeing04.jpg",
+      "Wellbeing05.jpg",
+      "Wellbeing06.jpg",
+      "Wellbeing07.jpg",
+      "Wellbeing08.jpg",
+      "Wellbeing09.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Safety Matter",
+    "image": "SafetyMatters00.jpg",
+    "category": "IARDA",
+    "id": "22",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "SafetyMatters01.jpg",
+      "SafetyMatters02.jpg",
+      "SafetyMatters03.jpg",
+      "SafetyMatters04.jpg",
+      "SafetyMatters05.jpg",
+      "SafetyMatters06.jpg",
+      "SafetyMatters07.jpg",
+      "SafetyMatters08.jpg",
+      "SafetyMatters09.jpg",
+      "SafetyMatters10.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "IARDA Social Media",
+    "image": "IARDAPostsCover0.jpg",
+    "category": "IARDA",
+    "id": "23",
+    "userClass": "",
+    "years": "",
+    "multiImages": ["IARDAPosts-scaled.jpg"],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Falcons",
+    "image": "FalconsCover.jpg",
+    "category": "IARDA",
+    "id": "24",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "FalconsExp01.jpg",
+      "FalconsExp02.jpg",
+      "FalconsExp03.jpg",
+      "FalconsExp04.jpg",
+      "FalconsExp05.jpg",
+      "FalconsExp06.jpg",
+      "FalconsExp07.jpg",
+      "FalconsExp08.jpg",
+      "FalconsExp09.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Chances",
+    "image": "chances.jpg",
+    "category": "IARDA",
+    "id": "25",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "ChancesExp01.jpg",
+      "ChancesExp02.jpg",
+      "ChancesExp03.jpg",
+      "ChancesExp04.jpg",
+      "ChancesExp05.jpg",
+      "ChancesExp06.jpg",
+      "ChancesExp07.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Int’l Forum on Afforestation Techniques",
+    "image": "TechnologyCover.jpg",
+    "category": "IARDA",
+    "id": "26",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "Technology01.jpg",
+      "Technology02.jpg",
+      "Technology03.jpg",
+      "Technology04.jpg",
+      "Technology05.jpg",
+      "Technology06.jpg",
+      "Technology07.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Saudi Tourism Forum",
+    "image": "SaudiTourismCover.jpg",
+    "category": "IARDA",
+    "id": "27",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "SaudiTourism01.jpg",
+      "SaudiTourism02.jpg",
+      "SaudiTourism03-1.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Environmental Week",
+    "image": "EnviroweekCover.jpg",
+    "category": "IARDA",
+    "id": "28",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "Enviroweek01.jpg",
+      "Enviroweek02.jpg",
+      "Enviroweek04.jpg",
+      "Enviroweek05.jpg",
+      "Enviroweek06.jpg",
+      "Enviroweek07.jpg",
+      "Enviroweek08.jpg",
+      "Enviroweek09.jpg",
+      "Enviroweek10.jpg",
+      "Enviroweek11.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Ramadan",
+    "image": "RamdanCover.jpg",
+    "category": "IARDA",
+    "id": "29",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "Ramdan01.jpg",
+      "Ramdan02.jpg",
+      "Ramdan03.jpg",
+      "Ramdan04.jpg",
+      "Ramdan05.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Adha Eid",
+    "image": "AdhaEidCover.jpg",
+    "category": "IARDA",
+    "id": "30",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "AdhaEid01.jpg",
+      "AdhaEid02.jpg",
+      "AdhaEid03.jpg",
+      "AdhaEid04-1.jpg",
+      "AdhaEid05.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Urmah Newsletter",
+    "image": "UrmahMagCover.jpg",
+    "category": "IARDA",
+    "id": "31",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "UrmahMag01.jpg",
+      "UrmahMag02.jpg",
+      "UrmahMag03.jpg",
+      "UrmahMag04.jpg",
+      "UrmahMag05.jpg",
+      "UrmahMag06.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Biodiversity Booklet",
+    "image": "biodiversityBookletCover.jpg",
+    "category": "IARDA",
+    "id": "32",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "Bio01.jpg",
+      "bio02.jpg",
+      "bio03.jpg",
+      "bio04.jpg",
+      "bio05.jpg",
+      "bio06.jpg",
+      "bio07.jpg",
+      "bio08.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Men’s Suits",
+    "image": "MenSuitCover.jpg",
+    "category": "University",
+    "id": "33",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "MenSuit01.jpg",
+      "MenSuit02.jpg",
+      "MenSuit03.jpg",
+      "MenSuit04.jpg",
+      "MenSuit05.jpg",
+      "MenSuit06.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Single Moms",
+    "image": "BathwaySingleCover.jpg",
+    "category": "Mascola",
+    "id": "34",
+    "userClass": "Women’s Foundation",
+    "link": {
+      "title": "Website",
+      "url": "https://womengiving.org/"
+    },
+    "multiImages": ["WomenPathway01.jpg"],
+    "descriptionImage": "Noir04.jpg",
+    "years": "2022",
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Engineers & Content",
+    "image": "MascolainfoCover.jpg",
+    "category": "Mascola",
+    "id": "35",
+    "userClass": "Mascola Group",
+    "multiImages": ["Mascolainfo01.jpg", "Mascolainfo02.jpg"],
+    "link": {
+      "title": "mascola.com",
+      "url": "https://mascola.com/"
+    },
+    "years": "2018",
+    "shortDescription": "During the intership at Mascola Group, i was able to work with the research and marketing team under B2B project titled \"How Engineers consume content?\". the goal of the infographic to breakdown the process of thinking of engineers as they are the target audience. The theme represent part of the full theme with focus on engineering elements. Tried with the idea to centered the thinking process with all data points.",
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Elena Light",
+    "image": "ElenaLightCover.jpg",
+    "category": "University",
+    "id": "36",
+    "multiImages": [
+      "ElenaLight01.jpg",
+      "ElenaLight02.jpg",
+      "ElenaLight03.jpg",
+      "ElenaLight04.jpg",
+      "ElenaLight05.jpg",
+      "ElenaLight08.jpg"
+    ],
+    "userClass": "",
+    "years": "",
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Make Haven",
+    "image": "MakehavenCover.jpg",
+    "category": "University",
+    "id": "37",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "Makehaven01.jpg",
+      "Makehaven03.jpg",
+      "Makehaven04.jpg",
+      "Makehaven05.jpg",
+      "Makehaven06.jpg",
+      "Makehaven09.jpg",
+      "Makehaven10.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "IARDA Visual",
+    "image": "IARDAIdentityC.jpg",
+    "category": "IARDA",
+    "id": "38",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "IARDAIdentity01.jpg",
+      "IARDAIdentity02.jpg",
+      "IARDAIdentity03.jpg",
+      "IARDAIdentity04.jpg",
+      "IARDAIdentity05.jpg",
+      "IARDAIdentity06.jpg",
+      "IARDAIdentity07.jpg",
+      "IARDAIdentity08.jpg",
+      "IARDAIdentity09.jpg",
+      "IARDAIdentity10.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  },
+  {
+    "name": "Covid19 Kit",
+    "image": "CovidKitCover.jpg",
+    "category": "Aramco",
+    "id": "39",
+    "userClass": "",
+    "years": "",
+    "multiImages": [
+      "CovidKit01.jpg",
+      "CovidKit02.jpg",
+      "CovidKit03.jpg",
+      "CovidKit04.jpg",
+      "CovidKit05.jpg",
+      "CovidKit06.jpg",
+      "CovidKit07.jpg",
+      "CovidKit08.jpg"
+    ],
+    "descriptionTitle": "",
+    "description": ""
+  }
+]
