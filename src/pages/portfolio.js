@@ -64,7 +64,7 @@ const TabsComponent = () => {
 
     fetchData();
   }, []);
-  console.log(51251, projects);
+  console.log(512512, projects);
   return (
     <div className="container mt-4">
       <ul className="nav nav-tabs m-nav-tabs" id="myTab" role="tablist">
