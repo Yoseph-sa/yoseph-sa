@@ -252,18 +252,18 @@ const ProjectDetail = () => {
                   </>
                 )}
 
-                {project?.description?.Conclusion?.content && (
+                {project?.description?.conclusion?.content && (
                   <p>
                     <strong>
-                      {project?.description?.Conclusion?.title || "Conclusion"}
+                      {project?.description?.conclusion?.title || "conclusion"}
                     </strong>
                     <br />
-                    {project?.description?.Conclusion?.content}
+                    {project?.description?.conclusion?.content}
                   </p>
                 )}
-                {project?.descriptionImage && (
+                {project?.descriptionImageUrl && (
                   <img
-                    src={project?.descriptionImage}
+                    src={project?.descriptionImageUrl}
                     className="img-fluid w-100 rounded"
                     alt={project?.name}
                   />
