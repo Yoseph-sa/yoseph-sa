@@ -11,45 +11,41 @@ const Gallery = ({ project }) => {
     setPopupImage(null);
   };
 
-  const { image, multiImages = [], iframes = [] } = project;
+  const { imageUrl, multiImageUrls = [], iframes = [] } = project;
 
   const getImagePath = (imgName) =>
     require(`../assets/img/projectDetail/${imgName}`);
 
   return (
     <div className="gallery-container">
-      {multiImages.length === 0 && iframes?.length === 0 ? (
-        <img
-          src={require(`../assets/img/${image}`)}
-          className="single-image"
-          alt=""
-        />
+      {multiImageUrls?.length === 0 && iframes?.length === 0 ? (
+        <img src={imageUrl} className="single-image" alt="" />
       ) : (
         <div className="multi-image-wrapper">
-          {multiImages.slice(0, 2).map((img, i) => (
+          {multiImageUrls?.slice(0, 2).map((img, i) => (
             <img
               key={i}
-              src={getImagePath(img)}
+              src={img}
               className="vertical-image"
               alt=""
-              onClick={() => showPopup(getImagePath(img))}
+              onClick={() => showPopup(img)}
             />
           ))}
 
           <div className="image-grid">
-            {multiImages.slice(2).map((img, i) => (
+            {multiImageUrls?.slice(2).map((img, i) => (
               <img
                 key={i}
-                src={getImagePath(img)}
+                src={img}
                 className="grid-image"
                 alt=""
-                onClick={() => showPopup(getImagePath(img))}
+                onClick={() => showPopup(img)}
               />
             ))}
           </div>
-          {iframes.map((item, i) => (
+          {iframes?.map((item, i) => (
             <iframe
-              title="Saudi National Day"
+              title={project?.name}
               src={item?.src}
               width="1320"
               height="600"

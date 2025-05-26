@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import portfolioJson from "../json/portfolioData.json";
-import { client } from "../server/sanityClient";
+import { client } from "../common/sanityClient";
 import imageUrlBuilder from "@sanity/image-url";
 
 const builder = imageUrlBuilder(client);
@@ -37,11 +37,35 @@ const TabsComponent = () => {
   useEffect(() => {
     const fetchData = async () => {
       const query = `*[_type == "project2"]{
-         
+          _id,
           name,
           image,
           category,
-          projectid
+          id,
+          userClass,
+          years,
+          multiImages,
+          descriptionTitle,
+          shortDescription,
+          descriptionImage,
+          link {
+            title,
+            url
+          },
+          description {
+            ProjectOverview { title, content },
+            ConceptObjective { title, content },
+            DesignProcess {
+              title,
+              content[] { title, content }
+            },
+            ResearchInspiration { title, content },
+            ProjectHighlights {
+              title,
+              content[] { title, content }
+            },
+            conclusion { title, content }
+          }
         }`;
 
       try {
@@ -86,7 +110,7 @@ const TabsComponent = () => {
       <div className="tab-content mt-3">
         <div className="tab-pane fade show active">
           <div className="row">
-            {projects
+            {portfolioJson
               .filter(
                 (item) => activeTab === "All" || item.category === activeTab
               )
@@ -97,10 +121,10 @@ const TabsComponent = () => {
                   data-aos="fade-up"
                   data-aos-delay={index * 100}
                 >
-                  <a href={`details/${item.projectid}`} className="port-box">
+                  <a href={`details/${item.id}`} className="port-box">
                     <div className="item-img">
                       <img
-                        src={item.imageUrl}
+                        src={require(`../assets/img/${item.image}`)}
                         className="img-fluid w-100"
                         alt={item.name}
                         loading="lazy"

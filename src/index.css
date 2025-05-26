@@ -790,9 +790,9 @@ input:focus {
   display: block;
   position: relative;
   padding: 25px 30px 25px;
-  background-color: #fefefe;
+  background-color: var(--bg-color);
   border-radius: 15px;
-  border: 2px solid #eee;
+  border: 2px solid var(--text-grey);
   margin-left: 20px;
 }
 
