@@ -13,8 +13,8 @@ const Gallery = ({ project }) => {
 
   const { imageUrl, multiImageUrls = [], iframes = [] } = project;
 
-  const getImagePath = (imgName) =>
-    require(`../assets/img/projectDetail/${imgName}`);
+  // const getImagePath = (imgName) =>
+  //   require(`../assets/img/projectDetail/${imgName}`);
 
   return (
     <div className="gallery-container">
