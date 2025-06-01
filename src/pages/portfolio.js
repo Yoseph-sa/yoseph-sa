@@ -9,38 +9,34 @@ function urlFor(source) {
 }
 const TabsComponent = () => {
   const [activeTab, setActiveTab] = useState("All");
+  const [categories, setCategories] = useState([]);
 
-  const categorys = [
-    {
-      name: "All",
-      value: "All",
-    },
-    {
-      name: "Aramco",
-      value: "Aramco",
-    },
-    {
-      name: "IARDA",
-      value: "IARDA",
-    },
-    {
-      name: "Mascola",
-      value: "Mascola",
-    },
-    {
-      name: "University",
-      value: "University",
-    },
-  ];
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
+    const fetchCategorys = async () => {
+      const query = `*[_type == "categorys"]{
+         
+          name
+        }`;
+      try {
+        const data = await client.fetch(query);
+        setCategories(data);
+        console.log(745120, data);
+      } catch (error) {
+        console.error("Error fetching categories:", error);
+      }
+    };
+    fetchCategorys();
+
     const fetchData = async () => {
       const query = `*[_type == "project2"]{
          
           name,
           image,
-          category,
+          category->{
+             name
+          },
           projectid
         }`;
 
@@ -64,20 +60,28 @@ const TabsComponent = () => {
 
     fetchData();
   }, []);
-  console.log(512512, projects);
   return (
     <div className="container mt-4">
       <ul className="nav nav-tabs m-nav-tabs" id="myTab" role="tablist">
-        {categorys.map((category, index) => (
+        <li className="nav-item" role="presentation">
+          <button
+            className={`nav-link ${"All" === activeTab ? "active" : ""}`}
+            type="button"
+            onClick={() => setActiveTab("All")}
+          >
+            All
+          </button>
+        </li>
+        {categories?.map((category, index) => (
           <li className="nav-item" role="presentation" key={index}>
             <button
               className={`nav-link ${
-                category.value === activeTab ? "active" : ""
+                category.name === activeTab ? "active" : ""
               }`}
               type="button"
-              onClick={() => setActiveTab(category.value)}
+              onClick={() => setActiveTab(category.name)}
             >
-              {category.name}
+              {category?.name}
             </button>
           </li>
         ))}
@@ -88,7 +92,8 @@ const TabsComponent = () => {
           <div className="row">
             {projects
               .filter(
-                (item) => activeTab === "All" || item.category === activeTab
+                (item) =>
+                  activeTab === "All" || item?.category?.name === activeTab
               )
               .map((item, index) => (
                 <div
@@ -108,7 +113,7 @@ const TabsComponent = () => {
                     </div>
                     <h4 className="name">{item.name}</h4>
                     <i className="bi bi-file-earmark-text"></i>
-                    <span className="category">{item.category}</span>
+                    <span className="category">{item?.category?.name}</span>
                   </a>
                 </div>
               ))}

@@ -18,39 +18,41 @@ const ProjectDetail = () => {
     const fetchSingleProject = async () => {
       setLoading(true);
       const query = `*[_type == "project2" && projectid == $id][0]{
-  name,
-  image,
-  category,
-  id,
-  userClass,
-  years,
-  multiImages,
-  descriptionTitle,
-  shortDescription,
-  descriptionImage,
-  link {
-    title,
-    url
-  },
-  description {
-    ProjectOverview { title, content },
-    ConceptObjective { title, content },
-    DesignProcess {
-      title,
-      content[] { title, content }
-    },
-    ResearchInspiration { title, content },
-    impactReflection { title, content },
-    ProjectHighlights {
-      title,
-      content[] { title, content }
-    },
-    conclusion { title, content }
-  },
-  iframes[] {
-    src
-  }
-}`;
+                        name,
+                        image,
+                        category->{
+                          name
+                        },
+                        id,
+                        userClass,
+                        years,
+                        multiImages,
+                        descriptionTitle,
+                        shortDescription,
+                        descriptionImage,
+                        link {
+                          title,
+                          url
+                        },
+                        description {
+                          ProjectOverview { title, content },
+                          ConceptObjective { title, content },
+                          DesignProcess {
+                            title,
+                            content[] { title, content }
+                          },
+                          ResearchInspiration { title, content },
+                          impactReflection { title, content },
+                          ProjectHighlights {
+                            title,
+                            content[] { title, content }
+                          },
+                          conclusion { title, content }
+                        },
+                        iframes[] {
+                          src
+                        }
+                      }`;
 
       try {
         const data = await client.fetch(query, { id });
