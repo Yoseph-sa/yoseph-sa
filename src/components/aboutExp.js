@@ -1,10 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const aboutExp = () => {
-    return (
-        <>
-        <div className="row">
+const aboutExp = ({ aboutExp }) => {
+  return (
+    <>
+      <div className="row">
+        {aboutExp?.map((exp, index) => (
+          <div key={index} className="col-lg-4 d-flex">
+            <div className="exp-box">
+              <p>{exp?.name}</p>
+              <p>
+                {exp?.yearFrom}-{exp?.yearTo}
+              </p>
+              <p className="whitespace-pre-wrap">{exp?.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+      {/* <div className="row">
             <div className="col-lg-4 d-flex">
                 <div className="exp-box">
                     <p>Mascola Group</p>
@@ -26,9 +39,9 @@ const aboutExp = () => {
                     <p>Imam Abdulaziz Royal Reserve Development Authority: As one of the first employees at IARDA, I had the unique opportunity to shape the organization’s brand from the ground up. Working closely with leadership, I helped establish IARDA’s visual and communication identity, ensuring consistency across digital platforms, print materials, and public exhibitions. I played a key role in creating the organization's character and making sure its messaging resonated with diverse audiences.</p>
                 </div>
             </div>
-        </div>
-        </>
-    );
+        </div> */}
+    </>
+  );
 };
 
 export default aboutExp;
