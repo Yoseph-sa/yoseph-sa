@@ -896,7 +896,7 @@ input:focus {
   margin-bottom: 10px;
   cursor: pointer;
   border-radius: 8px;
-  border: 1px solid #eabb63;
+  /* border: 1px solid #eabb63; */
   border-radius: 18px;
 }
 
