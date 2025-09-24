@@ -19,17 +19,23 @@ const ProjectDetail = () => {
       setLoading(true);
       const query = `*[_type == "project2" && projectid == $id][0]{
                         name,
-                        image,
+                         image{
+                            "url": asset->url
+                          },
                         category->{
                           name
                         },
                         id,
                         userClass,
                         years,
-                        multiImages,
+                        multiImages[]{
+                          "url": asset->url
+                        },
                         descriptionTitle,
                         shortDescription,
-                        descriptionImage,
+                         descriptionImage{
+                            "url": asset->url
+                          },
                         link {
                           title,
                           url
@@ -56,18 +62,20 @@ const ProjectDetail = () => {
 
       try {
         const data = await client.fetch(query, { id });
-
+        console.log(5154 , data);
+        
         if (data) {
-          setProject({
-            ...data,
-            imageUrl: data?.image ? urlFor(data?.image).url() : null,
-            multiImageUrls: data?.multiImages
-              ? data?.multiImages.map((img) => urlFor(img).width(400).url())
-              : [],
-            descriptionImageUrl: data?.descriptionImage
-              ? urlFor(data?.descriptionImage).url()
-              : null,
-          });
+          setProject(data);
+          // setProject({
+          //   ...data,
+          //   imageUrl: data?.image ? urlFor(data?.image).url() : null,
+          //   multiImageUrls: data?.multiImages
+          //     ? data?.multiImages.map((img) => urlFor(img).width(400).url())
+          //     : [],
+          //   descriptionImageUrl: data?.descriptionImage
+          //     ? urlFor(data?.descriptionImage).url()
+          //     : null,
+          // });
           setLoading(false);
         }
       } catch (error) {
@@ -263,9 +271,9 @@ const ProjectDetail = () => {
                     {project?.description?.conclusion?.content}
                   </p>
                 )}
-                {project?.descriptionImageUrl && (
+                {project?.descriptionImage?.url && (
                   <img
-                    src={project?.descriptionImageUrl}
+                    src={project?.descriptionImage?.url}
                     className="img-fluid w-100 rounded"
                     alt={project?.name}
                   />

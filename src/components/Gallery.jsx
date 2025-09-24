@@ -11,32 +11,32 @@ const Gallery = ({ project }) => {
     setPopupImage(null);
   };
 
-  const { imageUrl, multiImageUrls = [], iframes = [] } = project;
+  const { image, multiImages = [], iframes = [] } = project;
 
   // const getImagePath = (imgName) =>
   //   require(`../assets/img/projectDetail/${imgName}`);
 
   return (
     <div className="gallery-container">
-      {multiImageUrls?.length === 0 && iframes?.length === 0 ? (
-        <img src={imageUrl} className="single-image" alt="" />
+      {multiImages?.length === 0 && iframes?.length === 0 ? (
+        <img src={image.url} className="single-image" alt="" />
       ) : (
         <div className="multi-image-wrapper">
-          {multiImageUrls?.slice(0, 2).map((img, i) => (
+          {multiImages?.slice(0, 2).map((img, i) => (
             <img
               key={i}
-              src={img}
+              src={img?.url}
               className="vertical-image"
               alt=""
-              onClick={() => showPopup(img)}
+              onClick={() => showPopup(img?.url)}
             />
           ))}
 
           <div className="image-grid">
-            {multiImageUrls?.slice(2).map((img, i) => (
+            {multiImages?.slice(2).map((img, i) => (
               <img
                 key={i}
-                src={img}
+                src={img?.url}
                 className="grid-image"
                 alt=""
                 onClick={() => showPopup(img)}
