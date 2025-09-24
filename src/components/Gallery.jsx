@@ -39,7 +39,7 @@ const Gallery = ({ project }) => {
                 src={img?.url}
                 className="grid-image"
                 alt=""
-                onClick={() => showPopup(img)}
+                onClick={() => showPopup(img?.url)}
               />
             ))}
           </div>
