@@ -33,6 +33,7 @@ const TabsComponent = () => {
       const query = `*[_type == "project2"]{
          
           name,
+          "slug": slug.current,   // <--- fetch only the string
           image,
           category->{
              name
@@ -95,28 +96,31 @@ const TabsComponent = () => {
                 (item) =>
                   activeTab === "All" || item?.category?.name === activeTab
               )
-              .map((item, index) => (
-                <div
-                  className="col-lg-4 col-md-4"
-                  key={index}
-                  data-aos="fade-up"
-                  data-aos-delay={index * 100}
-                >
-                  <a href={`details/${item.projectid}`} className="port-box">
-                    <div className="item-img">
-                      <img
-                        src={item.imageUrl}
-                        className="img-fluid w-100"
-                        alt={item.name}
-                        loading="lazy"
-                      />
-                    </div>
-                    <h4 className="name">{item.name}</h4>
-                    <i className="bi bi-file-earmark-text"></i>
-                    <span className="category">{item?.category?.name}</span>
-                  </a>
-                </div>
-              ))}
+              .map((item, index) => {
+                const slug = item.slug;
+                return (
+                  <div
+                    className="col-lg-4 col-md-4"
+                    key={index}
+                    data-aos="fade-up"
+                    data-aos-delay={index * 100}
+                  >
+                    <a href={`details/${slug}`} className="port-box">
+                      <div className="item-img">
+                        <img
+                          src={item.imageUrl}
+                          className="img-fluid w-100"
+                          alt={item.name}
+                          loading="lazy"
+                        />
+                      </div>
+                      <h4 className="name">{item.name}</h4>
+                      <i className="bi bi-file-earmark-text"></i>
+                      <span className="category">{item?.category?.name}</span>
+                    </a>
+                  </div>
+                );
+              })}
           </div>
         </div>
       </div>

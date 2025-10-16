@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ImagePreviewer from "./ImagePreviewer";
 
 const Gallery = ({ project }) => {
   const [popupImage, setPopupImage] = useState(null);
@@ -11,7 +12,7 @@ const Gallery = ({ project }) => {
     setPopupImage(null);
   };
 
-  const { image, multiImages = [], iframes = [] } = project;
+  const { image, projectImages = [], multiImages = [], iframes = [] } = project;
 
   // const getImagePath = (imgName) =>
   //   require(`../assets/img/projectDetail/${imgName}`);
@@ -22,7 +23,7 @@ const Gallery = ({ project }) => {
         <img src={image.url} className="single-image" alt="" />
       ) : (
         <div className="multi-image-wrapper">
-          {multiImages?.slice(0, 2).map((img, i) => (
+          {projectImages?.map((img, i) => (
             <img
               key={i}
               src={img?.url}
@@ -33,7 +34,7 @@ const Gallery = ({ project }) => {
           ))}
 
           <div className="image-grid">
-            {multiImages?.slice(2).map((img, i) => (
+            {multiImages.map((img, i) => (
               <img
                 key={i}
                 src={img?.url}
@@ -56,7 +57,7 @@ const Gallery = ({ project }) => {
         </div>
       )}
 
-      {popupImage && (
+      {/* {popupImage && (
         <div className="popup-overlay" onClick={closePopup}>
           <div className="popup-content" onClick={(e) => e.stopPropagation()}>
             <button className="close-button" onClick={closePopup}>
@@ -65,6 +66,12 @@ const Gallery = ({ project }) => {
             <img src={popupImage} alt="Popup" className="popup-image" />
           </div>
         </div>
+      )} */}
+      {popupImage && (
+        <ImagePreviewer
+          imageUrl={popupImage}
+          onClose={() => setPopupImage(null)}
+        />
       )}
     </div>
   );

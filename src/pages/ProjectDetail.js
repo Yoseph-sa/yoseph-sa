@@ -12,12 +12,15 @@ function urlFor(source) {
 const ProjectDetail = () => {
   const [project, setProject] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [allprojects, setAllProjects] = useState([]);
+
   const navigate = useNavigate();
-  const { id } = useParams();
+  const { slug } = useParams();
+
   useEffect(() => {
     const fetchSingleProject = async () => {
       setLoading(true);
-      const query = `*[_type == "project2" && projectid == $id][0]{
+      const query = `*[_type == "project2" && slug.current == $slug][0]{
                         name,
                          image{
                             "url": asset->url
@@ -28,6 +31,9 @@ const ProjectDetail = () => {
                         id,
                         userClass,
                         years,
+                        projectImages[]{
+                          "url": asset->url
+                        },
                         multiImages[]{
                           "url": asset->url
                         },
@@ -61,21 +67,11 @@ const ProjectDetail = () => {
                       }`;
 
       try {
-        const data = await client.fetch(query, { id });
-        console.log(5154 , data);
-        
+        const data = await client.fetch(query, { slug });
+        console.log(5154, data);
+
         if (data) {
           setProject(data);
-          // setProject({
-          //   ...data,
-          //   imageUrl: data?.image ? urlFor(data?.image).url() : null,
-          //   multiImageUrls: data?.multiImages
-          //     ? data?.multiImages.map((img) => urlFor(img).width(400).url())
-          //     : [],
-          //   descriptionImageUrl: data?.descriptionImage
-          //     ? urlFor(data?.descriptionImage).url()
-          //     : null,
-          // });
           setLoading(false);
         }
       } catch (error) {
@@ -83,28 +79,39 @@ const ProjectDetail = () => {
         setLoading(false);
       }
     };
+    const fetchAllSlugs = async () => {
+      const query = `*[_type == "project2"]{
+    "slug": slug.current
+  }`;
 
+      try {
+        const slugs = await client.fetch(query);
+        // slugs = [{ slug: "project-1" }, { slug: "project-2" }, ...]
+        setAllProjects(slugs);
+      } catch (err) {
+        console.error("Error fetching project slugs:", err);
+      }
+    };
+    fetchAllSlugs();
     fetchSingleProject();
-  }, [id]);
+  }, [slug]);
 
   // const project = portfolioJson.find((item) => item.id == id);
   if (!project) {
     return loading ? <div>loading...</div> : <div>Project not found</div>;
   }
-
   const handleBack = () => {
-    if (!id) return;
-    const prevId = parseInt(id, 10) - 1;
-    if (prevId < 1) return; // Prevent going to a negative ID
-    navigate(`/details/${prevId}`);
+    const currentIndex = allprojects?.findIndex((p) => p.slug === slug);
+    if (currentIndex > 0) {
+      navigate(`/details/${allprojects[currentIndex - 1].slug}`);
+    }
   };
 
   const handleNext = () => {
-    if (!id) return;
-    const nextId = parseInt(id, 10) + 1;
-    const nextProject = portfolioJson?.find((item) => item.id == nextId);
-    if (!nextProject) return; // Prevent going to a non-existent ID
-    navigate(`/details/${nextId}`);
+    const currentIndex = allprojects?.findIndex((p) => p.slug === slug);
+    if (currentIndex >= 0 && currentIndex < allprojects?.length - 1) {
+      navigate(`/details/${allprojects[currentIndex + 1].slug}`);
+    }
   };
 
   return (
