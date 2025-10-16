@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import portfolioJson from "../json/portfolioData.json";
 import { client } from "../server/sanityClient";
 import imageUrlBuilder from "@sanity/image-url";
+import CategorySelector from "../components/CategorySelector";
 
 const builder = imageUrlBuilder(client);
 function urlFor(source) {
@@ -63,7 +64,7 @@ const TabsComponent = () => {
   }, []);
   return (
     <div className="container mt-4">
-      <ul className="nav nav-tabs m-nav-tabs" id="myTab" role="tablist">
+      {/* <ul className="nav nav-tabs m-nav-tabs" id="myTab" role="tablist">
         <li className="nav-item" role="presentation">
           <button
             className={`nav-link ${"All" === activeTab ? "active" : ""}`}
@@ -86,7 +87,12 @@ const TabsComponent = () => {
             </button>
           </li>
         ))}
-      </ul>
+      </ul> */}
+      <CategorySelector
+        categories={categories}
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+      />
 
       <div className="tab-content mt-3">
         <div className="tab-pane fade show active">

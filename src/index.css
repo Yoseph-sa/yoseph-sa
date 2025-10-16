@@ -1021,7 +1021,38 @@ input:focus {
   user-select: none;
 }
 
+/* ----------------------------------- */
+.category-selector {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.category-btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f0f0f0;
+  color: #555;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.category-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.category-btn.active {
+  background-color: #007bff; /* Bootstrap primary */
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* ----------------------------------- */
 @media (max-width: 992.2px) {
+  .category-selector {
+    justify-content: flex-start;
+  }
   .about-main {
     padding: 20px 0px;
   }
