@@ -1031,7 +1031,7 @@ input:focus {
   padding: 8px 18px;
   border: none;
   border-radius: 30px;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   color: #555;
   font-weight: 500;
   cursor: pointer;
@@ -1039,13 +1039,13 @@ input:focus {
 }
 
 .category-btn:hover {
-  background-color: #e0e0e0;
+  background-color: #b7933079;
 }
 
 .category-btn.active {
-  background-color: #007bff; /* Bootstrap primary */
+  background-color: #b79230; /* Bootstrap primary */
   color: white;
-  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  box-shadow: 0 4px 10px #b7933079;
 }
 
 /* ----------------------------------- */
