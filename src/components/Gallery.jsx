@@ -34,7 +34,7 @@ const Gallery = ({ project }) => {
           ))}
 
           <div className="image-grid">
-            {multiImages.map((img, i) => (
+            {multiImages?.map((img, i) => (
               <img
                 key={i}
                 src={img?.url}
