@@ -29,7 +29,7 @@ const Gallery = ({ project }) => {
               src={img?.url}
               className="vertical-image"
               alt=""
-              onClick={() => showPopup(img?.url)}
+              // onClick={() => showPopup(img?.url)}
             />
           ))}
 
@@ -40,7 +40,7 @@ const Gallery = ({ project }) => {
                 src={img?.url}
                 className="grid-image"
                 alt=""
-                onClick={() => showPopup(img?.url)}
+                // onClick={() => showPopup(img?.url)}
               />
             ))}
           </div>
@@ -67,12 +67,12 @@ const Gallery = ({ project }) => {
           </div>
         </div>
       )} */}
-      {popupImage && (
+      {/* {popupImage && (
         <ImagePreviewer
           imageUrl={popupImage}
           onClose={() => setPopupImage(null)}
         />
-      )}
+      )} */}
     </div>
   );
 };

@@ -105,7 +105,7 @@ const TabsComponent = () => {
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
                   >
-                    <a href={`details/${slug}`} className="port-box">
+                    <a href={`/${slug}`} className="port-box">
                       <div className="item-img">
                         <img
                           src={item.imageUrl}

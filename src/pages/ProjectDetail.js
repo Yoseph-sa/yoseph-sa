@@ -103,14 +103,14 @@ const ProjectDetail = () => {
   const handleBack = () => {
     const currentIndex = allprojects?.findIndex((p) => p.slug === slug);
     if (currentIndex > 0) {
-      navigate(`/details/${allprojects[currentIndex - 1].slug}`);
+      navigate(`/${allprojects[currentIndex - 1].slug}`);
     }
   };
 
   const handleNext = () => {
     const currentIndex = allprojects?.findIndex((p) => p.slug === slug);
     if (currentIndex >= 0 && currentIndex < allprojects?.length - 1) {
-      navigate(`/details/${allprojects[currentIndex + 1].slug}`);
+      navigate(`/${allprojects[currentIndex + 1].slug}`);
     }
   };
 
