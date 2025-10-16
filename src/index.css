@@ -1035,16 +1035,20 @@ input:focus {
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;
+  background-color: transparent;
 }
 
-.category-btn:hover {
-  background-color: #b7933079;
-}
+/* .category-btn:hover {
+  background-color: #f0f0f0;
+} */
 
 .category-btn.active {
-  background-color: #b79230; /* Bootstrap primary */
-  color: white;
-  box-shadow: 0 4px 10px #b7933079;
+  /* background-color: #b79230; /* Bootstrap primary */
+  /* color: white;
+  box-shadow: 0 4px 10px #b7933079;  */
+  background-color: #f0f0f0; /* white background */
+  color: #000; /* dark text for visibility */
+  border-color: #000; /* optional highlight */
 }
 
 /* ----------------------------------- */
