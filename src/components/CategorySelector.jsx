@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useTheme } from "../context/ThemeContext";
 const CategorySelector = ({ categories = [], activeTab, setActiveTab }) => {
   const { theme } = useTheme();
-  console.log(651651, theme);
 
   return (
     <div className="category-selector d-flex flex-wrap gap-2">

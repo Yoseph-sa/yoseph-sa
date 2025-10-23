@@ -1028,27 +1028,31 @@ input:focus {
 }
 
 .category-btn {
+  position: relative;
   padding: 8px 18px;
   border: none;
   border-radius: 30px;
-  /* background-color: #f0f0f0; */
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
   background-color: transparent;
+  color: #ccc; /* default light gray text */
 }
 
-/* .category-btn:hover {
-  background-color: #f0f0f0;
-} */
-
 .category-btn.active {
-  /* background-color: #b79230; /* Bootstrap primary */
-  /* color: white;
-  box-shadow: 0 4px 10px #b7933079;  */
-  background-color: #f0f0f0; /* white background */
-  color: #000; /* dark text for visibility */
-  border-color: #000; /* optional highlight */
+  color: #fff; /* white text on dark bg */
+}
+
+.category-btn.active::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #b79230; /* gold dot */
+  border-radius: 50%;
 }
 
 /* ----------------------------------- */
