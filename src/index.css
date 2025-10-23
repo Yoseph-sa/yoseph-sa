@@ -1028,31 +1028,34 @@ input:focus {
 }
 
 .category-btn {
-  position: relative;
   padding: 8px 18px;
   border: none;
   border-radius: 30px;
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.3s ease;
-  background-color: transparent;
-  color: #ccc; /* default light gray text */
+  transition: all 0.2s ease;
+}
+.category-btn-light {
+  color: #555;
+  transition: all 0.2s ease;
+}
+.category-btn-dark {
+  color: white;
+}
+.category-btn-light:hover {
+  color: white;
+}
+
+.category-btn:hover {
+  background-color: #b7933079;
 }
 
 .category-btn.active {
-  color: #fff; /* white text on dark bg */
-}
-
-.category-btn.active::after {
-  content: "";
-  position: absolute;
-  bottom: 2px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 8px;
-  height: 8px;
-  background-color: #b79230; /* gold dot */
-  border-radius: 50%;
+  background-color: #007bff; /* Bootstrap primary */
+  background-color: #b79230; /* Bootstrap primary */
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  box-shadow: 0 4px 10px #b7933079;
 }
 
 /* ----------------------------------- */
