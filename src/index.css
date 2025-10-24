@@ -722,28 +722,36 @@ input:focus {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.port-box:hover .item-img img {
+/* .port-box:hover .item-img img {
   transform: scale(1.2);
-}
-.port-box .category {
-  display: inline-block;
-  padding: 3px 7px;
-  background-color: #fff;
-  color: #222;
-  font-size: 11px;
-  line-height: 1.2em;
+} */
+.port-box .category-item {
   bottom: 20px;
   left: 20px;
   position: absolute;
-  border-radius: 5px;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 5px;
+}
+.port-box .category-item .category {
+  display: inline-block;
+  padding: 4px 10px;
+  background-color: #0000005e; /* semi-transparent black */
+  color: #fff; /* white text */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2em;
+
+  border-radius: 20px; /* smooth pill-like rounded shape */
+  opacity: 0; /* visible */
   transition: all 0.3s ease-in-out;
 }
-.port-box i {
+.port-box .category-item .portfolio-card-heading {
+  font-size: 14px;
+  font-weight: 600;
+}
+/* .port-box i {
   display: inline-block;
   position: absolute;
   bottom: 20px;
@@ -762,9 +770,9 @@ input:focus {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   color: #b79230;
-}
-.port-box:hover i,
-.port-box:hover .category {
+} */
+/* .port-box:hover i, */
+.port-box:hover .category-item .category {
   opacity: 1;
 }
 .nav-portfolio {
@@ -1062,6 +1070,9 @@ input:focus {
 @media (max-width: 992.2px) {
   .category-selector {
     justify-content: flex-start;
+  }
+  .port-box .category-item .category {
+    opacity: 1;
   }
   .about-main {
     padding: 20px 0px;

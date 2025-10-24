@@ -117,10 +117,14 @@ const TabsComponent = () => {
                       />
                     </div>
                     <h4 className="name">{item.name}</h4>
-                    <i className="bi bi-file-earmark-text"></i>
-                    <span className="category">
-                      {item?.categories?.map((cat) => cat.name).join(", ")}
-                    </span>
+                    {/* <i className="bi bi-file-earmark-text"></i> */}
+
+                    <div className="category-item">
+                      <span className="category portfolio-card-heading">{item.name}</span>
+                      <span className="category">
+                        {item?.categories?.map((cat) => cat.name).join(", ")}
+                      </span>
+                    </div>
                   </a>
                 </div>
               );
