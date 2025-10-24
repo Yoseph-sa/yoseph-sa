@@ -35,26 +35,20 @@ const TabsComponent = () => {
          
           name,
           "slug": slug.current,   // <--- fetch only the string
-          image,
-          category->{
-             name
+            image{
+              "url": asset->url
+            },
+          categories[]->{    // note the [] for array
+            name
           },
           projectid
         }`;
 
       try {
         const data = await client.fetch(query);
+        console.log(565161, data);
 
-        // Map images to URLs
-        const projectsWithUrls = data.map((project) => ({
-          ...project,
-          imageUrl: project.image ? urlFor(project.image).url() : null,
-          multiImageUrls:
-            project.multiImages?.map((img) => urlFor(img).width(400).url()) ||
-            [],
-        }));
-
-        setProjects(projectsWithUrls);
+        setProjects(data);
       } catch (err) {
         console.error("Error fetching Sanity data:", err);
       }
@@ -62,6 +56,13 @@ const TabsComponent = () => {
 
     fetchData();
   }, []);
+
+  const filteredProjects = projects.filter((project) => {
+    if (activeTab === "All") return true; // All projects
+
+    // Check if any of the categories match the activeTab
+    return project?.categories?.some((cat) => cat.name === activeTab);
+  });
   return (
     <div className="container mt-4">
       {/* <ul className="nav nav-tabs m-nav-tabs" id="myTab" role="tablist">
@@ -97,36 +98,33 @@ const TabsComponent = () => {
       <div className="tab-content mt-3">
         <div className="tab-pane fade show active">
           <div className="row">
-            {projects
-              .filter(
-                (item) =>
-                  activeTab === "All" || item?.category?.name === activeTab
-              )
-              .map((item, index) => {
-                const slug = item.slug;
-                return (
-                  <div
-                    className="col-lg-4 col-md-4"
-                    key={index}
-                    data-aos="fade-up"
-                    data-aos-delay={index * 100}
-                  >
-                    <a href={`/${slug}`} className="port-box">
-                      <div className="item-img">
-                        <img
-                          src={item.imageUrl}
-                          className="img-fluid w-100"
-                          alt={item.name}
-                          loading="lazy"
-                        />
-                      </div>
-                      <h4 className="name">{item.name}</h4>
-                      <i className="bi bi-file-earmark-text"></i>
-                      <span className="category">{item?.category?.name}</span>
-                    </a>
-                  </div>
-                );
-              })}
+            {filteredProjects?.map((item, index) => {
+              const slug = item.slug;
+              return (
+                <div
+                  className="col-lg-4 col-md-4"
+                  key={index}
+                  data-aos="fade-up"
+                  data-aos-delay={index * 100}
+                >
+                  <a href={`/${slug}`} className="port-box">
+                    <div className="item-img">
+                      <img
+                        src={item?.image?.url}
+                        className="img-fluid w-100"
+                        alt={item.name}
+                        loading="lazy"
+                      />
+                    </div>
+                    <h4 className="name">{item.name}</h4>
+                    <i className="bi bi-file-earmark-text"></i>
+                    <span className="category">
+                      {item?.categories?.map((cat) => cat.name).join(", ")}
+                    </span>
+                  </a>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
