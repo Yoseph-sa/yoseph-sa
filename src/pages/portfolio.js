@@ -116,7 +116,7 @@ const TabsComponent = () => {
                         loading="lazy"
                       />
                     </div>
-                    <h4 className="name">{item.name}</h4>
+                    {/* <h4 className="name">{item.name}</h4> */}
                     {/* <i className="bi bi-file-earmark-text"></i> */}
 
                     <div className="category-item">
